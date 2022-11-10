@@ -6,6 +6,8 @@ This creates a versioned history of the notes taken at specific intervals, indep
 
 # How to
 
+- Install dependencies. Usually `git`, `unzip`, and `jq`.
+    - The commands usually spits out errors about what is missing usually. Read the errors, it's free! :P
 - Clone recursively this repository
 - Set your options to `config.sh`.
 - Login the first time by running `./login.sh --email user@whatever.tld`. See the CLI documentation for further authentication mechanisms.

@@ -21,7 +21,7 @@ cd notes
 unzip -o archive.zip
 
 if [[ `git status --porcelain` ]]; then
-        git add *
+        git add -A
         git commit -m "HEDGEDOC_BACKUPPER@$(date --iso-8601=seconds)"
 fi
 
